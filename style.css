@@ -128,3 +128,14 @@ footer {
 .social-links a:hover {
   color: #0056b3;
 }
+.nav-links {
+  display: none;
+}
+
+.nav-links.active {
+  display: block;
+}
+body.dark {
+  background: #111;
+  color: #fff;
+}
