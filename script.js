@@ -20,6 +20,11 @@ toggle.onclick = () => {
 if (localStorage.getItem("dark") === "true") {
   document.body.classList.add("dark");
 }
+const toggle = document.getElementById("theme-toggle");
+
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
 
 / MOBILE MENU
 document.getElementById("menuBtn").onclick = () => {
